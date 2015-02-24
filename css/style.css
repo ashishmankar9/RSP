@@ -8,8 +8,22 @@ body{
 	margin: 0 auto;
 	width: 70%;
 }
-
+.content-wrapper{
+	margin: 50px auto;
+}
 .container70{
 	width: 70%;
 	margin: 0 auto;
+}
+
+.nav-side{
+	width: 15%;
+
+	border-radius: 5px;
+	background: #DDD;
+}
+
+.carousel-inner > div{
+	padding-left: 150px;
+	padding-right: 150px;
 }
