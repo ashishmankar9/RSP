@@ -17,9 +17,11 @@ body{
 }
 
 .nav-side{
-
+	position: relative;
+	left: -100px;
 	border-radius: 5px;
 	background: #DDD;
+	display: none;
 }
 
 .carousel-inner > div{
