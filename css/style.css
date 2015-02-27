@@ -32,3 +32,8 @@ body{
 .slide{
 	padding-top: 30px;
 }
+
+.panel-title > img{
+	width: 50px;
+	height: 50px;
+}
