@@ -1,107 +1,168 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta chatset="utf-8"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>RSP</title>
+		<title>आरएसपी</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 	<body>
-		<div class="navbar navbar-default navbar-fixed-top">
-			<div class="container nav-wrapper">
+		<div class="container rsp-banner-head">
+			<a href="index.html"><img class="img-responsive" src="http://placehold.it/1200x200" alt="home"></a>
+		</div>
+		<div class="container rsp-news"><marquee>काही डेमो बातम्या संदेश प्रदर्शित करण्यासाठी</marquee></div>
+		<div class="container  navbar navbar-inverse">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#">
+			        <img alt="Brand" src="img/home.png">
+			      </a>
+			    </div>
+			 </div>
+			<div class="nav-wrapper">
 				<!-- <a class="navbar-brand" href="">RSP</a> -->
 				<button class="navbar-toggle" data-toggle = "collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<div class="collapse navbar-collapse navHeaderCollapse">
-					<ul class="nav navbar-nav navbar-left">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="karyakarani.html">Karyakarani</a></li>
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu2<b class="caret"></b></a>
+				<div class="collapse navbar-collapse navHeaderCollapse rsp-collapse">
+					<ul class="nav navbar-nav navbar-left rsp-navbar">
+						<li class="dropdown">
+							<a href="index.html" class="dropdown-toggle" data-toggle="dropdown">महाराष्ट्र आरएसपी<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Submenu1</a></li>
-								<li><a href="#">Submenu2</a></li>
-								<li><a href="#">Submenu3</a></li>
+								<div class="rsp-submenu-holder">
+									<li><a href="#">इतिहास</a></li>
+									<li><a href="#">प्रदेश अध्यक्ष</a></li>
+									<li><a href="#">संघटन</a></li>
+
+								</div>
 							</ul>
-						</li> -->
-						<li><a href="sanghatan.html">Sanghatan</a></li>
-						<li><a href="aboutus.html">About Us</a></li>
-						<li><a href="#login" data-toggle="modal">Login</a></li>
+						</li>
+						<li class="dropdown">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown">राज्य नेतृत्व<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<div class="rsp-submenu-holder">
+									<li><a href="#">आमदार</a></li>
+									<li><a href="#">आघाडया</a></li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">बातम्या<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<div class="rsp-submenu-holder">
+									<li><a href="#">प्रसिद्धी पत्रके</a></li>
+									<li><a href="#">बातम्यांमध्ये भाजपा</a></li>
+									<li><a href="#">प्रकाशने</a></li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">प्रसार माध्यमे (मीडिया)<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<div class="rsp-submenu-holder">
+									<li><a href="#">छायाचित्रे</a></li>
+									<li><a href="#">व्हिडिओ</a></li>
+									<li><a href="#">साधने</a></li>
+									<li><a href="#">ब्लॉग</a></li>
+								</div>
+							</ul>
+						</li>
+						<li><a href="#">कार्यक्रम</a></li>
+						<li><a href="#">संपर्क</a></li>
+						<li><a href="#login" data-toggle="modal">लॉग-इन</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-
+		
 		<div class="main-wrapper">
-			<div class="head-wrapper">
-				<div class="logo-wrapper">
-					Head Logo
+			<div class="container rsp-banner-body">
+				<img class="img-responsive" src="http://placehold.it/1200x300" alt="...">
+			</div>
+			
+			<div class="container rsp-contain">
+				<div class="col-lg-3">
+					<h3>महाराष्ट्र भाजपा</h3>
+					<ul class="nav nav-pills nav-stacked">
+					  <li role="presentation"><a href="#">इतिहास</a></li>
+					  <li role="presentation"><a href="#">प्रदेश अध्यक्ष</a></li>
+					  <li role="presentation"><a href="#">संघटन</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3">
+					<h3>बातम्या</h3>
+				</div>
+				<div class="col-lg-3">
+					<h3>प्रसार माध्यम</h3>
+				</div>
+				<div class="col-lg-3">
+					<h3>संवाद आणि सहभाग</h3>
 				</div>
 			</div>
-			<div class="content-wrapper">
-				<div class=" col-lg-2">
-					<div class="nav-side">
-						<!-- <ul class="nav nav-pills nav-stacked">
-						  <li role="presentation" class="active"><a href="#">Maharashtra</a></li>
-						  <li role="presentation"><a href="#">Mumbai</a></li>
-						  <li role="presentation"><a href="#">Konkan</a></li>
-						</ul> -->
+
+			<div class="container foot-wrapper">
+				<div class="rsp-footer-head">
+					<h4>महाराष्ट्र</h4>
+				</div>
+				<div class="col-lg-5 rsp-map img-responsive">
+					<img src="img/maharashtra.png"/>
+				</div>
+				<div class="col-lg-7 rsp-district">
+					<div class="col-lg-3">
+						<ul class="nav nav-pills nav-stacked">
+						  <li role="presentation"><a href="#">नंदुरबार</a></li>
+						  <li role="presentation"><a href="#">धुळे</a></li>
+						  <li role="presentation"><a href="#">जळगाव</a></li>
+						  <li role="presentation"><a href="#">बुलढाणा</a></li>
+						  <li role="presentation"><a href="#">अकोला</a></li>
+						  <li role="presentation"><a href="#">वाशिम</a></li>
+						  <li role="presentation"><a href="#">अमरावती</a></li>
+						  <li role="presentation"><a href="#">वर्धा</a></li>
+						  <li role="presentation"><a href="#">नागपूर</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="nav nav-pills nav-stacked">
+						  <li role="presentation"><a href="#">भंडारा</a></li>
+						  <li role="presentation"><a href="#">गोंदिया</a></li>
+						  <li role="presentation"><a href="#">गडचिरोली</a></li>
+						  <li role="presentation"><a href="#">चंद्रपूर</a></li>
+						  <li role="presentation"><a href="#">यवतमाळ</a></li>
+						  <li role="presentation"><a href="#">नांदेड</a></li>
+						  <li role="presentation"><a href="#">हिंगोली</a></li>
+						  <li role="presentation"><a href="#">परभणी</a></li>
+						  <li role="presentation"><a href="#">जालना</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="nav nav-pills nav-stacked">
+						  <li role="presentation"><a href="#">औरंगाबाद</a></li>
+						  <li role="presentation"><a href="#">नाशिक</a></li>
+						  <li role="presentation"><a href="#">ठाणे</a></li>
+						  <li role="presentation"><a href="#">मुंबई उपनगर</a></li>
+						  <li role="presentation"><a href="#">मुंबई शहर</a></li>
+						  <li role="presentation"><a href="#">रायगड</a></li>
+						  <li role="presentation"><a href="#">पुणे</a></li>
+						  <li role="presentation"><a href="#">अहमदनगर</a></li>
+						  <li role="presentation"><a href="#">बीड</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="nav nav-pills nav-stacked">
+						  <li role="presentation"><a href="#">लातूर</a></li>
+						  <li role="presentation"><a href="#">उस्मानाबाद</a></li>
+						  <li role="presentation"><a href="#">सोलापूर</a></li>
+						  <li role="presentation"><a href="#">सातारा</a></li>
+						  <li role="presentation"><a href="#">रत्नागिरी</a></li>
+						  <li role="presentation"><a href="#">सिंधुदुर्ग</a></li>
+						  <li role="presentation"><a href="#">कोल्हापूर</a></li>
+						  <li role="presentation"><a href="#">सांगली</a></li>
+						</ul>
 					</div>
 				</div>
-				<div id="carousel-example-generic" class="col-lg-8 carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  </ol>
-				 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner">
-				    <div class="item active jumbotron">
-				      <h1>Header</h1>
-				      <p>Demo Text to view exact view of the slider for the news section</p>
-				      <p><a href="#" class="btn btn-primary btn-lg" role="button">News</a></p>
-				    </div>
-				    <div class="item jumbotron">
-				      <h1>Header</h1>
-				      <p>Demo Text to view exact view of the slider for the news section</p>
-				      <p><a href="#" class="btn btn-primary btn-lg" role="button">News</a></p>
-				    </div>
-				    <div class="item jumbotron">
-				      <h1>Header</h1>
-				      <p>Demo Text to view exact view of the slider for the news section</p>
-				      <p><a href="#" class="btn btn-primary btn-lg" role="button">News</a></p>
-				    </div>
-				    <!-- <div class="item">
-				      <img src="http://placehold.it/1200x315" alt="...">
-				      <div class="carousel-caption">
-				          <h3>Caption Text</h3>
-				      </div>
-				    </div> -->
-				    <!-- <div class="item">
-				      <img src="http://placehold.it/1200x315" alt="...">
-				      <div class="carousel-caption">
-				          <h3>Caption Text</h3>
-				      </div>
-				    </div> -->
-				  </div>
-				 
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left"></span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right"></span>
-				  </a>
-				</div> <!-- Carousel -->
-			</div>
-			<div class="foot-wrapper">
-				
 			</div>
 		</div>
 

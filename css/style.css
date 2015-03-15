@@ -1,7 +1,11 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: yellow;
+	background: #FFFFFF;
+}
+
+.container{
+	width: 70%;
 }
 
 .head-wrapper{
@@ -36,4 +40,73 @@ body{
 .panel-title > img{
 	width: 50px;
 	height: 50px;
+}
+
+.rsp-banner-head{
+	margin: 2px auto;
+	background: #DDD;
+	padding: 5px;
+}
+
+.rsp-banner-body{
+	margin: 50px auto;
+	background: #DDD;
+	padding: 5px;
+}
+
+.rsp-news{
+	margin: 2px auto;
+	background: #DDD;
+	padding-top: 5px;
+}
+
+.rsp-navbar{
+	  display: inline-block;
+	  float: none !important;
+	  vertical-align: top;
+}
+
+.rsp-collapse{
+	  text-align: center;
+}
+
+div.rsp-submenu{
+	  width: 943px;
+  	  left: -465%;
+}
+
+.rsp-collapse li ul li{
+	  /*width: 100px !important;*/
+	  text-align: center;
+	  list-style: none;
+	  display: inline-block;
+	  float: none !important;
+	  vertical-align: top;
+	  padding: 0 10px;
+}
+
+.rsp-collapse li ul{
+	list-style: none;
+}
+
+.container-fluid{
+	position: absolute;
+	left: 0px;
+	top: -5px;
+}
+.container-fluid a img{
+	width: 30px;
+	height: 30px;
+}
+.rsp-footer-head{
+	background: #aaaaaa;
+	padding: 5px;
+}
+
+.rsp-map img{
+	width: 100%;
+}
+
+.foot-wrapper{
+	margin-bottom: 100px;
 }
