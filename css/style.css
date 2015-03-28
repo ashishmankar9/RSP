@@ -89,6 +89,18 @@ div.rsp-submenu{
 	list-style: none;
 }
 
+.rsp-col-1 {
+	border-right: 1px #ccc solid;
+}
+
+.rsp-col-2 {
+	border-right: 1px #ccc solid;
+}
+
+.rsp-col-3 {
+	border-right: 1px #ccc solid;
+}
+
 .container-fluid{
 	position: absolute;
 	left: 0px;
